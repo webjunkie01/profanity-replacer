@@ -4,12 +4,13 @@ A simple and fast class for censoring profanity in text. It can be used at runti
 
 ## How it works.
 
-It needs a list of words that are considered profanity, when this list if provided a search will begin and will 
+It needs a list of words that are considered profanity, when this list is provided, a search will begin and will 
 match the word against the text you want to censor.
 
-This means that for example you want to censor the word `shit` it will search the text for that specific word but will not work for words like `shithead` or `shithole` for example.
+This means that for example if you want to censor the word `shit` it will search for that specific word but 
+will not work for words like `shithead` or `shithole` for example.
 
-For this to work you will have to provide an extra list of words that consider very offensive. Words in this file wil be replaced if they match as a whole word of in-word.
+For this to work you will have to provide an extra list of words that can be consider very offensive. Words in this file wil be replaced if they match as a whole word or in-word.
 
 ## Example
 
